@@ -1,0 +1,17 @@
+<% include ./partials/header %>
+<div class="row">
+    <div class="col-md-12">
+        <form class="form-signin" action="/login" method="POST">
+            <h1>Please Login</h1>
+            <input type="text" class="form-control" name="username" placeholder="username">
+            <input type="password" class="form-control" name="password" placeholder="password">
+            <button class="btn btn-lg btn-primary btn-block">Login!</button>
+        </form>
+        <div class="form-signin">
+            <a href="/campgrounds">Go Back</a>
+        </div>
+    </div>
+</div>
+
+
+<% include ./partials/footer %>
